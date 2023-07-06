@@ -210,7 +210,7 @@ span.msg {
 }
 
 .search__form::before {
-    content: '>';
+    content: '';
 }
 
 .search__input {
