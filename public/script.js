@@ -217,14 +217,17 @@ init();
                 <div class="home_container">
                     <h2>Hello Sweety 🍭</h2>
                     <p>
-                        I'm not good with my Words, so I made this code... 
-                        I really <span class="green msg">sorry</span> about my behaviour 'cause I'm
-                        <span class="green msg">baka</span>.... 
-                        I care about U <span class="green msg">girl</span>, that's I made this 
-                        Vlada is a good person, but just us is not the same without U, 
-                        We need U girl, I'm fear to loose U forever, UR so funny 
-                        Anyway, that was my fault ,
-                        I'll hope 4 UR answer :)
+                    I am not good with my words, so I did this project.
+
+                    I am really <span class="green msg">sorry</span> for my behavior because I am stupid....👻
+                    <br><br>
+                    No matter how angry I get, I can't stay away from my <span class="green msg">bachaa</span>
+                    
+                    Your chicoo is a good boiii but he turns into angry bird....🐣
+                    <br><br>
+                    I love you soo much and you are the only person who is closest to my heart, it was my fault that I got angry with you but from now on I will control my anger....🍭
+                    <br><br>
+                    I'll hope for your reply :)
                     </p>
                     <div class="close_home" href="">x</div>
                 </div>
