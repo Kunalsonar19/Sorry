@@ -625,7 +625,8 @@ canvas {
         padding: 10px;
         /* height: 100%; */
     }
-    .home_container p{
+
+    .home_container p {
         width: 100%;
     }
 }

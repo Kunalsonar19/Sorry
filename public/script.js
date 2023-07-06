@@ -259,13 +259,14 @@ init();
   });
 
   const opts = {
-    cari: document.getElementById("cari.gif"),
+    cari: document.getElementById("main.jpg"),
     baka: document.getElementById("baka.jpg"),
     leave: document.getElementById("bond.png"),
     sorry: document.getElementById("sorry.gif"),
     happy: document.getElementById("4.jpg"),
     repo: document.getElementById("default.jpg"),
-    ivana: document.getElementById("ivana.jpeg"),
+    ivana: document.getElementById("1.jpg"),
+    out: document.getElementById("default.jpg"),
   };
 
   $(search_form).submit((e) => {
