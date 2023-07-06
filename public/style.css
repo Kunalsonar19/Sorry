@@ -17,7 +17,8 @@ img {
 
 body {
     font-family: 'Inconsolata', 'Monaco', monospace;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     margin: 0;
     color: #a0a2ae;
     background: #000;
@@ -482,7 +483,8 @@ canvas {
 
 .home_container p {
     position: absolute;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     top: 25%;
     left: 0;
     right: 0;
