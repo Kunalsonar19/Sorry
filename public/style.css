@@ -199,8 +199,8 @@ span.msg {
 .terminal__line {
     line-height: 1.5;
     word-wrap: break-word;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    overflow: hidden;
+    /* overflow-y: scroll; */
     text-overflow: ellipsis;
     width: 0;
     margin: 0;
