@@ -10,8 +10,8 @@
 
 img {
     position: absolute;
-    top: 20%;
-    height: 60%;
+    top: 30%;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -199,7 +199,8 @@ span.msg {
 .terminal__line {
     line-height: 1.5;
     word-wrap: break-word;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     text-overflow: ellipsis;
     width: 0;
     margin: 0;
