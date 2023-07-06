@@ -219,15 +219,15 @@ init();
                     <p>
                     I am not good with my words, so I did this project.
 
-                    I am really <span class="green msg">sorry</span> for my behavior because I am stupid....👻
+                    I am really <span class="green msg">sorry</span> for my behavior because I am stupid.... 👻
                     <br><br>
                     No matter how angry I get, I can't stay away from my <span class="green msg">bachaa</span>
                     
-                    Your chicoo is a good boiii but he turns into angry bird....🐣
+                    Your chicoo is a good boiii but he turns into angry bird.... 🐣
                     <br><br>
-                    I love you soo much and you are the only person who is closest to my heart, it was my fault that I got angry with you but from now on I will control my anger....🍭
+                    I love you soo much and you are the only person who is closest to my heart, it was my fault that I got angry with you but from now on I will control my anger.... 🍭
                     <br><br>
-                    I'll hope for your reply :)
+                    I'll hope for your reply :) ❤️
                     </p>
                     <div class="close_home" href="">x</div>
                 </div>
@@ -261,9 +261,9 @@ init();
   const opts = {
     cari: document.getElementById("cari.gif"),
     baka: document.getElementById("baka.jpg"),
-    leave: document.getElementById("leave.gif"),
+    leave: document.getElementById("bond.png"),
     sorry: document.getElementById("sorry.gif"),
-    happy: document.getElementById("smile.gif"),
+    happy: document.getElementById("4.jpg"),
     repo: document.getElementById("default.jpg"),
     ivana: document.getElementById("ivana.jpeg"),
   };
