@@ -11,10 +11,11 @@
 img {
     position: absolute;
     top: 30%;
-    width: 100%;
+    width: auto;
     border-radius: 10px;
     margin: 10px;
     display: inline-block;
+    background: black;
 }
 
 body {
@@ -485,9 +486,8 @@ canvas {
 
 .home_container p {
     position: absolute;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    top: 25%;
+    overflow: hidden;
+    top: 30%;
     left: 0;
     right: 0;
     font-size: 1.5em;
@@ -497,6 +497,8 @@ canvas {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     background: #000;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .close_home {
@@ -615,5 +617,13 @@ canvas {
         display: block;
         margin: 0 auto 1em;
         text-align: center;
+    }
+
+    img {
+        width: 100%;
+        /* height: 100%; */
+    }
+    .home_container p{
+        width: 100%;
     }
 }
