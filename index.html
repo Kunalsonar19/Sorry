@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="public/style.css">
+    <link rel="shortcut icon" href="assets/coding.png" type="image/x-icon">
+    <title>Sorry Girl</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700|VT323" rel="stylesheet">
+    <script>document.documentElement.className = 'js';</script>
+</head>
+
+<body class="demo-11">
+    <!-- OST AUDIO -->
+    <audio id="ost" loop autoplay>
+        <!-- <source id="ost-src" src="assets/ost.mp3" type="audio/mp3"> -->
+    </audio>
+    <!-- OST AUDIO -->
+    <div id="connecting-dots" class="connecting-dots">
+        <canvas id="canvas"></canvas>
+    </div>
+
+    <div class="search search--open">
+        <div class="terminal">
+            <p class="terminal__line">
+                Hello! : <span class="green">Bachaa :)</span>
+            </p>
+            <p class="terminal__line">I wanted to tell you <span class="country green">something</span>!!!</p>
+            <p class="terminal__line">I made this Program 4U ;)</p>
+            <p class="terminal__line">Loading Assets .... </p>
+
+            <p class="terminal__line"><a id="sorry.gif" href="#">#Sorry</a></p>
+            <p class="terminal__line"><a id="message" href="#">#Message</a></p>
+            <p class="terminal__line"><a id="smile.gif" href="#">#happy4U</a></p>
+            <p class="terminal__line"><a id="baka.jpg" href="#">#ImBaka</a></p>
+            <p class="terminal__line"><a id="leave.gif" href="#">#DontLeave</a></p>
+            <p class="terminal__line"><a id="cari.gif" href="#">#cari</a></p>
+            <p class="terminal__line"><a id="ivana.jpeg" href="#">#ivana</a></p>
+
+            <p class="terminal__line">
+                <a id="default.jpg" target="_blank" class="out" href="https://github.com/cartory">#repo</a>
+            </p>
+
+            <p class="terminal__line">
+                Click on <a href="#">#Words</a> to See More<span class="console"></span>
+            </p>
+            <p class="terminal__line">
+                Commands available
+                <a href="#">sorry</a> |
+                <a href="#">baka</a> |
+                <a href="#">leave</a> |
+                <a href="#">repo</a> |
+                <a href="#">message</a> |
+                <a href="#">cari</a> |
+                <a href="#">ivana</a> |
+                <a href="#">clear</a>
+            </p>
+        </div>
+        <form class="search__form" action="">
+            <input name="search" id="search__input" autocomplete="off" class="search__input" placeholder="Press enter"
+                autocorrect="off" autocapitalize="off" spellcheck="false">
+            </input>
+        </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/easing/EasePack.min.js"></script>
+    
+    <script src="public/script.js"></script>
+    <script>
+        let audio = document.getElementById('ost')
+        audio.volumen = .8
+        audio.playbackRate = 1.05
+
+        document.addEventListener('click', async e => {
+            await audio.play()
+        })
+    </script>
+</body>
