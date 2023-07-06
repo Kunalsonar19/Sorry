@@ -215,15 +215,15 @@ init();
     if (src === "message") {
       homeDiv.innerHTML = `
                 <div class="home_container">
-                    <h2>Hello, There :|</h2>
+                    <h2>Hello Sweety 🍭</h2>
                     <p>
-                        I'm not good with my Words, so I made this code... <br/>
-                        I really <span class="green">sorry</span> about my behaviour 'cause I'm
-                        <span class="green">baka</span>.... <br/>
-                        I care about U <span class="green">girl</span>, that's I made this <br/>
-                        Vlada is a good person, but just us is not the same without U, <br/>
-                        We need U girl, I'm fear to loose U forever, UR so funny <br/>
-                        Anyway, that was my fault <br/>,
+                        I'm not good with my Words, so I made this code... 
+                        I really <span class="green msg">sorry</span> about my behaviour 'cause I'm
+                        <span class="green msg">baka</span>.... 
+                        I care about U <span class="green msg">girl</span>, that's I made this 
+                        Vlada is a good person, but just us is not the same without U, 
+                        We need U girl, I'm fear to loose U forever, UR so funny 
+                        Anyway, that was my fault ,
                         I'll hope 4 UR answer :)
                     </p>
                     <div class="close_home" href="">x</div>
