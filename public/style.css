@@ -17,8 +17,7 @@ img {
 
 body {
     font-family: 'Inconsolata', 'Monaco', monospace;
-    overflow-x: hidden;
-    overflow-y: scroll;
+    overflow: auto;
     margin: 0;
     color: #a0a2ae;
     background: #000;
